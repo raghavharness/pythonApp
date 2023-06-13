@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello from my_script.sh!"
+echo "Done setting up the build env"
