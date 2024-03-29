@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_raghavharness_pythonApp_1711704899182-pr-trigger-input-set
+  identifier: Build_raghavharness_pythonApp_1711704899182prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: RaghavTest
+  pipeline:
+    identifier: Build_raghavharness_pythonApp_1711704899182
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
