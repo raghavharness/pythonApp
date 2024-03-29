@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_raghavharness_pythonApp_1711704986436-push-trigger-input-set
+  identifier: Build_raghavharness_pythonApp_1711704986436pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: RaghavTest
+  pipeline:
+    identifier: Build_raghavharness_pythonApp_1711704986436
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
